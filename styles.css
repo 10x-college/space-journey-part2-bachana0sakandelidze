@@ -77,7 +77,10 @@ h1 {
     font-size: 0.9rem;
 }
 
-.blink { animation: blinker 1.5s linear infinite; color: var(--neon-red); }
+.blink1 { animation: blinker 1.5s linear infinite; color: var(--neon-red); }
+@keyframes blinker { 50% { opacity: 0; } }
+
+.blink2 { animation: blinker 1.5s linear infinite; color: var(--neon-orange); }
 @keyframes blinker { 50% { opacity: 0; } }
 
 /* --- DESTINATIONS (SEMANTIC GRID) --- */
