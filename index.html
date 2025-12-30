@@ -20,7 +20,7 @@
             </div>
         </header>
         <main>
-            <section>
+            <section id="destinations">
                 <h2>POPULAR FLIGHT PATHS</h2>
                 <div class="grid-wrapper">
                     <article>
@@ -222,7 +222,7 @@
                                     disabled
                                     selected
                                     hidden
-                                ></option>
+                                >Select Class</option>
                                 <option value="Economy">
                                     Economy (Statis Pod)
                                 </option>
@@ -246,9 +246,8 @@
             </p>
         </footer>
 
-
-         <!-- Added formating rule (123-456789) to id-code field -->
-         <script>
+        <!-- Added formating rule (123-456789) to id-code field -->
+        <script>
             function formatID(input) {
                 // Remove everything that isn't a digit
                 let val = input.value.replace(/\D/g, "");
